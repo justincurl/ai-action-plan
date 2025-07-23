@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Action Plan - Policy Actions by Department</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .table-wrapper {
+            overflow-x: auto;
+            margin-bottom: 30px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th {
+            background-color: #2c3e50;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            vertical-align: top;
+        }
+        .dept-info {
+            font-size: 12px;
+            color: #666;
+            margin-top: 5px;
+            font-style: italic;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        .action-item {
+            margin-bottom: 10px;
+            padding: 8px;
+            background-color: #e8f4f8;
+            border-left: 3px solid #3498db;
+            font-size: 14px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 10px;
+        }
+        .lead-agency {
+            background-color: #d4edda;
+            border-left-color: #28a745;
+        }
+        .support-agency {
+            background-color: #fff3cd;
+            border-left-color: #ffc107;
+        }
+        .action-text {
+            flex: 1;
+            min-width: 0;
+        }
+        .page-ref {
+            flex-shrink: 0;
+            font-size: 12px;
+            color: #666;
+            font-style: italic;
+            white-space: nowrap;
+            align-self: center;
+        }
+        .legend {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+        .legend-item {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .legend-box {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>America's AI Action Plan - Policy Actions by Department</h1>
+        
+        <div class="legend">
+            <div class="legend-item">
+                <span class="legend-box" style="background-color: #d4edda; border: 1px solid #28a745;"></span>
+                Lead Agency
+            </div>
+            <div class="legend-item">
+                <span class="legend-box" style="background-color: #fff3cd; border: 1px solid #ffc107;"></span>
+                Supporting/Coordinating Agency
+            </div>
+        </div>
+
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Department/Agency</th>
+                        <th>Policy Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- OSTP -->
+                    <tr>
+                        <td>
+                            <strong>OSTP (Office of Science and Technology Policy)</strong>
+                            <div class="dept-info">FY 2025 Budget: XX</div>
+                            <div class="dept-info">FY 2025 Employee Count: XX</div>
+                        </td>
+                        <td>
+                            <div class="action-item lead-agency"><span class="action-text">Launch Request for Information about Federal regulations hindering AI innovation</span> <span class="page-ref">p. 3</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Publish new National AI R&D Strategic Plan</span> <span class="page-ref">p. 5</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Develop mechanism to prevent malicious customers from accessing nucleic acid synthesis tools</span> <span class="page-ref">p. 23</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Explore using location verification to ensure AI chips are not in countries of concern</span> <span class="page-ref">p. 21</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Encourage maturation of healthy financial market for compute (with NIST, NSF)</span> <span class="page-ref">p. 5</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Support AI vulnerability information sharing efforts</span> <span class="page-ref">p. 19</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Collect intelligence on foreign frontier AI projects with national security implications</span> <span class="page-ref">p. 6</span></div>
+                        </td>
+                    </tr>
+
+                    <!-- OMB -->
+                    <tr>
+                        <td>
+                            <strong>OMB (Office of Management and Budget)</strong>
+                            <div class="dept-info">FY 2025 Budget: XX</div>
+                            <div class="dept-info">FY 2025 Employee Count: XX</div>
+                        </td>
+                        <td>
+                            <div class="action-item lead-agency"><span class="action-text">Work with agencies to identify/revise regulations hindering AI per EO 14192</span> <span class="page-ref">p. 3</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Consider state AI regulatory climate in funding decisions</span> <span class="page-ref">p. 3</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Promulgate CIPSEA regulations on data accessibility</span> <span class="page-ref">p. 8</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Formalize Chief AI Officer Council (CAIOC)</span> <span class="page-ref">p. 11</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Convene agencies with High Impact Service Providers for AI pilots</span> <span class="page-ref">p. 11</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Create AI procurement toolbox with GSA</span> <span class="page-ref">p. 11</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Support AI incident response efforts</span> <span class="page-ref">p. 19</span></div>
+                        </td>
+                    </tr>
+
+                    <!-- DOC -->
+                    <tr>
+                        <td>
+                            <strong>DOC (Department of Commerce)</strong>
+                            <div class="dept-info">FY 2025 Budget: XX</div>
+                            <div class="dept-info">FY 2025 Employee Count: XX</div>
+                        </td>
+                        <td>
+                            <div class="action-item lead-agency"><span class="action-text">Establish AI Centers of Excellence</span> <span class="page-ref">p. 5</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Create national initiative for AI infrastructure occupations</span> <span class="page-ref">p. 17</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Gather AI export package proposals</span> <span class="page-ref">p. 20</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Advocate for innovation-friendly AI governance internationally</span> <span class="page-ref">p. 20</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Focus CHIPS Program on ROI and removing policy requirements</span> <span class="page-ref">p. 16</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Review semiconductor programs for AI integration</span> <span class="page-ref">p. 16</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Leverage location verification for AI compute</span> <span class="page-ref">p. 21</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Collaborate with IC on chip export enforcement</span> <span class="page-ref">p. 21</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Develop semiconductor manufacturing export controls</span> <span class="page-ref">p. 21</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Develop complementary technology protection measures</span> <span class="page-ref">p. 21-22</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Coordinate with allies on export control adoption</span> <span class="page-ref">p. 22</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Study AI impact on labor market (Census/BEA)</span> <span class="page-ref">p. 6</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Prioritize AI skill development</span> <span class="page-ref">p. 6</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Partner on workforce training programs</span> <span class="page-ref">p. 17</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Integrate training in infrastructure investments</span> <span class="page-ref">p. 17</span></div>
+                        </td>
+                    </tr>
+
+                    <!-- NIST (separate from DOC) -->
+                    <tr>
+                        <td>
+                            <strong>NIST (National Institute of Standards and Technology)</strong><br><em>Note: Part of DOC</em>
+                            <div class="dept-info">FY 2025 Budget: XX</div>
+                            <div class="dept-info">FY 2025 Employee Count: XX</div>
+                        </td>
+                        <td>
+                            <div class="action-item lead-agency"><span class="action-text">Revise AI Risk Management Framework</span> <span class="page-ref">p. 4</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Improve financial market for compute</span> <span class="page-ref">p. 4-5</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Launch domain-specific AI standards efforts</span> <span class="page-ref">p. 5</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Consider developing deepfake forensic guidelines</span> <span class="page-ref">p. 13</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Publish AI evaluation guidelines</span> <span class="page-ref">p. 10</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Support AI measurement science development</span> <span class="page-ref">p. 10</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Convene NIST AI Consortium</span> <span class="page-ref">p. 10</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Create technical standards for high-security data centers</span> <span class="page-ref">p. 16</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Partner with AI/cybersecurity industries on incident response</span> <span class="page-ref">p. 19</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Invest in automated cloud labs</span> <span class="page-ref">p. 8</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Refine DOD AI frameworks</span> <span class="page-ref">p. 18</span></div>
+                        </td>
+                    </tr>
+
+                    <!-- CAISI (separate from DOC) -->
+                    <tr>
+                        <td>
+                            <strong>CAISI (Center for AI Standards and Innovation)</strong><br><em>Note: Part of DOC</em>
+                            <div class="dept-info">FY 2025 Budget: XX</div>
+                            <div class="dept-info">FY 2025 Employee Count: XX</div>
+                        </td>
+                        <td>
+                            <div class="action-item lead-agency"><span class="action-text">Conduct research on Chinese AI alignment</span> <span class="page-ref">p. 4</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Publish AI evaluation guidelines</span> <span class="page-ref">p. 10</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Convene meetings for AI evaluations</span> <span class="page-ref">p. 10</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Evaluate frontier AI for national security risks</span> <span class="page-ref">p. 22</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Evaluate adversary AI security vulnerabilities</span> <span class="page-ref">p. 22</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Build/maintain national security AI evaluations</span> <span class="page-ref">p. 22-23</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Establish AI-ISAC with DHS</span> <span class="page-ref">p. 18</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Partner with AI/cybersecurity industries on incident response</span> <span class="page-ref">p. 19</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Collaborate on AI security with DOD, DHS, IC</span> <span class="page-ref">p. 12</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Launch AI interpretability program</span> <span class="page-ref">p. 9</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Coordinate AI hackathon initiative</span> <span class="page-ref">p. 10</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Refine DOD AI frameworks</span> <span class="page-ref">p. 18</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Prioritize AI research on foreign frontier projects</span> <span class="page-ref">p. 6</span></div>
+                        </td>
+                    </tr>
+
+                    <!-- NTIA (separate from DOC) -->
+                    <tr>
+                        <td>
+                            <strong>NTIA (National Telecommunications and Information Administration)</strong><br><em>Note: Part of DOC</em>
+                            <div class="dept-info">FY 2025 Budget: XX</div>
+                            <div class="dept-info">FY 2025 Employee Count: XX</div>
+                        </td>
+                        <td>
+                            <div class="action-item lead-agency"><span class="action-text">Convene stakeholders on open-source AI adoption</span> <span class="page-ref">p. 5</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Convene stakeholders on robotics/drone supply chains</span> <span class="page-ref">p. 7</span></div>
+                        </td>
+                    </tr>
+
+                    <!-- DOD -->
+                    <tr>
+                        <td>
+                            <strong>DOD (Department of Defense)</strong>
+                            <div class="dept-info">FY 2025 Budget: XX</div>
+                            <div class="dept-info">FY 2025 Employee Count: XX</div>
+                        </td>
+                        <td>
+                            <div class="action-item lead-agency"><span class="action-text">Update DOD-IC AI adoption assessments with ODNI</span> <span class="page-ref">p. 5-6</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Identify AI workforce talent/skills requirements</span> <span class="page-ref">p. 12</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Establish AI & Autonomous Systems Virtual Proving Ground</span> <span class="page-ref">p. 12</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Develop streamlined workflow automation process</span> <span class="page-ref">p. 12</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Prioritize agreements for emergency compute access</span> <span class="page-ref">p. 12</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Grow Senior Military Colleges as AI hubs</span> <span class="page-ref">p. 12</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Collaborate with industry on AI security (with DHS, CAISI, IC)</span> <span class="page-ref">p. 12</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Refine Responsible AI/Gen AI Frameworks (with NIST, ODNI)</span> <span class="page-ref">p. 18</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Coordinate AI hackathon initiative</span> <span class="page-ref">p. 10</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Create high-security data center standards (with IC, NSC, NIST)</span> <span class="page-ref">p. 16</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Modify cybersecurity playbooks with DHS, ODNI</span> <span class="page-ref">p. 19</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Coordinate with allies on export controls</span> <span class="page-ref">p. 22</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Launch AI interpretability program with DARPA</span> <span class="page-ref">p. 9</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Invest in manufacturing technologies</span> <span class="page-ref">p. 7</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Build AI testbeds with DOE, NSF</span> <span class="page-ref">p. 10</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Develop technology diplomacy plan with DOS</span> <span class="page-ref">p. 22</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Support AI incident response efforts</span> <span class="page-ref">p. 19</span></div>
+                        </td>
+                    </tr>
+
+                    <!-- DOL -->
+                    <tr>
+                        <td>
+                            <strong>DOL (Department of Labor)</strong>
+                            <div class="dept-info">FY 2025 Budget: XX</div>
+                            <div class="dept-info">FY 2025 Employee Count: XX</div>
+                        </td>
+                        <td>
+                            <div class="action-item lead-agency"><span class="action-text">Prioritize AI skill development (with ED, NSF, DOC)</span> <span class="page-ref">p. 6</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Study AI impact with BLS and DOC</span> <span class="page-ref">p. 6</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Establish AI Workforce Research Hub</span> <span class="page-ref">p. 6-7</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Fund rapid retraining for AI-displaced workers</span> <span class="page-ref">p. 7</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Pilot new AI workforce approaches</span> <span class="page-ref">p. 7</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Create national AI infrastructure occupations initiative</span> <span class="page-ref">p. 17</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Partner on industry-driven training programs</span> <span class="page-ref">p. 17</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Expand early career exposure programs (with ED, NSF)</span> <span class="page-ref">p. 17</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Expand Registered Apprenticeships for AI infrastructure</span> <span class="page-ref">p. 17</span></div>
+                        </td>
+                    </tr>
+
+                    <!-- Treasury -->
+                    <tr>
+                        <td>
+                            <strong>Department of Treasury</strong>
+                            <div class="dept-info">FY 2025 Budget: XX</div>
+                            <div class="dept-info">FY 2025 Employee Count: XX</div>
+                        </td>
+                        <td>
+                            <div class="action-item lead-agency"><span class="action-text">Issue guidance on AI training tax treatment under Section 132</span> <span class="page-ref">p. 6</span></div>
+                        </td>
+                    </tr>
+
+                    <!-- BLS -->
+                    <tr>
+                        <td>
+                            <strong>BLS (Bureau of Labor Statistics)</strong><br><em>Note: Part of DOL</em>
+                            <div class="dept-info">FY 2025 Budget: XX</div>
+                            <div class="dept-info">FY 2025 Employee Count: XX</div>
+                        </td>
+                        <td>
+                            <div class="action-item lead-agency"><span class="action-text">Study AI labor market impact with DOC Census/BEA</span> <span class="page-ref">p. 6</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Support AI Workforce Research Hub</span> <span class="page-ref">p. 6-7</span></div>
+                        </td>
+                    </tr>
+
+                    <!-- NSF -->
+                    <tr>
+                        <td>
+                            <strong>NSF (National Science Foundation)</strong>
+                            <div class="dept-info">FY 2025 Budget: XX</div>
+                            <div class="dept-info">FY 2025 Employee Count: XX</div>
+                        </td>
+                        <td>
+                            <div class="action-item lead-agency"><span class="action-text">Invest in automated cloud labs (with DOE, NIST)</span> <span class="page-ref">p. 8</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Support Focused-Research Organizations</span> <span class="page-ref">p. 8</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Prioritize AI interpretability research</span> <span class="page-ref">p. 9</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Create secure compute environments with DOE</span> <span class="page-ref">p. 9</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Develop AI testbeds with DOE</span> <span class="page-ref">p. 10</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Partner with NAIRR pilot</span> <span class="page-ref">p. 5</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Continue fostering AI breakthroughs</span> <span class="page-ref">p. 5</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Prioritize AI skill development</span> <span class="page-ref">p. 6</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Partner on workforce programs</span> <span class="page-ref">p. 17</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Expand early career programs</span> <span class="page-ref">p. 17</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Support measurement science</span> <span class="page-ref">p. 10</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Invest in manufacturing technologies</span> <span class="page-ref">p. 7</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Develop technology protection measures</span> <span class="page-ref">p. 21-22</span></div>
+                        </td>
+                    </tr>
+
+                    <!-- DOE -->
+                    <tr>
+                        <td>
+                            <strong>DOE (Department of Energy)</strong>
+                            <div class="dept-info">FY 2025 Budget: XX</div>
+                            <div class="dept-info">FY 2025 Employee Count: XX</div>
+                        </td>
+                        <td>
+                            <div class="action-item lead-agency"><span class="action-text">Invest in automated cloud labs</span> <span class="page-ref">p. 8</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Create secure compute environments</span> <span class="page-ref">p. 9</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Explore whole-genome sequencing program</span> <span class="page-ref">p. 9</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Expand hands-on research training at labs</span> <span class="page-ref">p. 17-18</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Apply AI to environmental reviews (PermitAI)</span> <span class="page-ref">p. 15</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Support measurement science</span> <span class="page-ref">p. 10</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Invest in AI testbeds</span> <span class="page-ref">p. 10</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Invest in manufacturing technologies</span> <span class="page-ref">p. 7</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Partner on workforce programs</span> <span class="page-ref">p. 17</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Collaborate on AI compute verification</span> <span class="page-ref">p. 21</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Support hackathon initiative</span> <span class="page-ref">p. 10</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Prioritize AI research on foreign projects</span> <span class="page-ref">p. 6</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Develop technology protection measures</span> <span class="page-ref">p. 21-22</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Support technology diplomacy plan</span> <span class="page-ref">p. 22</span></div>
+                        </td>
+                    </tr>
+
+                    <!-- DHS -->
+                    <tr>
+                        <td>
+                            <strong>DHS (Department of Homeland Security)</strong>
+                            <div class="dept-info">FY 2025 Budget: XX</div>
+                            <div class="dept-info">FY 2025 Employee Count: XX</div>
+                        </td>
+                        <td>
+                            <div class="action-item lead-agency"><span class="action-text">Establish AI-ISAC with CAISI</span> <span class="page-ref">p. 18</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Issue AI vulnerability guidance</span> <span class="page-ref">p. 18</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Collaborate on AI security with DOD, CAISI, IC</span> <span class="page-ref">p. 12</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Modify cybersecurity playbooks with DOD, ODNI</span> <span class="page-ref">p. 19</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Coordinate hackathon initiative</span> <span class="page-ref">p. 10</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Support incident response efforts</span> <span class="page-ref">p. 19</span></div>
+                        </td>
+                    </tr>
+
+                    <!-- ODNI -->
+                    <tr>
+                        <td>
+                            <strong>ODNI (Office of Director of National Intelligence)</strong>
+                            <div class="dept-info">FY 2025 Budget: XX</div>
+                            <div class="dept-info">FY 2025 Employee Count: XX</div>
+                        </td>
+                        <td>
+                            <div class="action-item lead-agency"><span class="action-text">Update DOD-IC AI assessments with DOD</span> <span class="page-ref">p. 5-6</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Publish IC Standard on AI Assurance</span> <span class="page-ref">p. 18</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Modify cybersecurity playbooks with DOD, DHS</span> <span class="page-ref">p. 19</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Refine DOD AI frameworks</span> <span class="page-ref">p. 18</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Support incident response efforts</span> <span class="page-ref">p. 19</span></div>
+                        </td>
+                    </tr>
+
+                    <!-- ED -->
+                    <tr>
+                        <td>
+                            <strong>ED (Department of Education)</strong>
+                            <div class="dept-info">FY 2025 Budget: XX</div>
+                            <div class="dept-info">FY 2025 Employee Count: XX</div>
+                        </td>
+                        <td>
+                            <div class="action-item lead-agency"><span class="action-text">Prioritize AI skill development with DOL, NSF, DOC</span> <span class="page-ref">p. 6</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Provide CTE guidance on AI infrastructure</span> <span class="page-ref">p. 17</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Partner on early career programs</span> <span class="page-ref">p. 17</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Support workforce programs</span> <span class="page-ref">p. 17</span></div>
+                        </td>
+                    </tr>
+
+                    <!-- FCC -->
+                    <tr>
+                        <td>
+                            <strong>FCC (Federal Communications Commission)</strong>
+                            <div class="dept-info">FY 2025 Budget: XX</div>
+                            <div class="dept-info">FY 2025 Employee Count: XX</div>
+                        </td>
+                        <td>
+                            <div class="action-item lead-agency"><span class="action-text">Evaluate state AI regulations vs Communications Act</span> <span class="page-ref">p. 3</span></div>
+                        </td>
+                    </tr>
+
+                    <!-- FTC -->
+                    <tr>
+                        <td>
+                            <strong>FTC (Federal Trade Commission)</strong>
+                            <div class="dept-info">FY 2025 Budget: XX</div>
+                            <div class="dept-info">FY 2025 Employee Count: XX</div>
+                        </td>
+                        <td>
+                            <div class="action-item lead-agency"><span class="action-text">Review investigations to avoid burdening innovation</span> <span class="page-ref">p. 3</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Review/modify orders that burden innovation</span> <span class="page-ref">p. 3-4</span></div>
+                        </td>
+                    </tr>
+
+                    <!-- GSA -->
+                    <tr>
+                        <td>
+                            <strong>GSA (General Services Administration)</strong>
+                            <div class="dept-info">FY 2025 Budget: XX</div>
+                            <div class="dept-info">FY 2025 Employee Count: XX</div>
+                        </td>
+                        <td>
+                            <div class="action-item lead-agency"><span class="action-text">Create AI procurement toolbox with OMB</span> <span class="page-ref">p. 11</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Implement Advanced Technology Transfer Program</span> <span class="page-ref">p. 11</span></div>
+                        </td>
+                    </tr>
+
+                    <!-- DOS -->
+                    <tr>
+                        <td>
+                            <strong>DOS (Department of State)</strong>
+                            <div class="dept-info">FY 2025 Budget: XX</div>
+                            <div class="dept-info">FY 2025 Employee Count: XX</div>
+                        </td>
+                        <td>
+                            <div class="action-item lead-agency"><span class="action-text">Advocate for innovation-friendly AI governance with DOC</span> <span class="page-ref">p. 20</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Develop technology diplomacy plan with DOC, DOD, DOE</span> <span class="page-ref">p. 22</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Facilitate AI export packages</span> <span class="page-ref">p. 20</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Strengthen export control enforcement</span> <span class="page-ref">p. 21</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Develop technology protection measures</span> <span class="page-ref">p. 21-22</span></div>
+                        </td>
+                    </tr>
+
+                    <!-- DOJ -->
+                    <tr>
+                        <td>
+                            <strong>DOJ (Department of Justice)</strong>
+                            <div class="dept-info">FY 2025 Budget: XX</div>
+                            <div class="dept-info">FY 2025 Employee Count: XX</div>
+                        </td>
+                        <td>
+                            <div class="action-item lead-agency"><span class="action-text">Issue deepfake guidance for adjudications</span> <span class="page-ref">p. 13</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">File comments on Federal Rules of Evidence</span> <span class="page-ref">p. 13</span></div>
+                        </td>
+                    </tr>
+
+                    <!-- FDA -->
+                    <tr>
+                        <td>
+                            <strong>FDA (Food and Drug Administration)</strong>
+                            <div class="dept-info">FY 2025 Budget: XX</div>
+                            <div class="dept-info">FY 2025 Employee Count: XX</div>
+                        </td>
+                        <td>
+                            <div class="action-item support-agency"><span class="action-text">Enable regulatory sandboxes</span> <span class="page-ref">p. 5</span></div>
+                        </td>
+                    </tr>
+
+                    <!-- SEC -->
+                    <tr>
+                        <td>
+                            <strong>SEC (Securities and Exchange Commission)</strong>
+                            <div class="dept-info">FY 2025 Budget: XX</div>
+                            <div class="dept-info">FY 2025 Employee Count: XX</div>
+                        </td>
+                        <td>
+                            <div class="action-item support-agency"><span class="action-text">Enable regulatory sandboxes</span> <span class="page-ref">p. 5</span></div>
+                        </td>
+                    </tr>
+
+                    <!-- NSC -->
+                    <tr>
+                        <td>
+                            <strong>NSC (National Security Council)</strong>
+                            <div class="dept-info">FY 2025 Budget: XX</div>
+                            <div class="dept-info">FY 2025 Employee Count: XX</div>
+                        </td>
+                        <td>
+                            <div class="action-item support-agency"><span class="action-text">Explore AI compute verification</span> <span class="page-ref">p. 21</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Collaborate on chip export enforcement</span> <span class="page-ref">p. 21</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Create high-security data center standards</span> <span class="page-ref">p. 16</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Support incident response efforts</span> <span class="page-ref">p. 19</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Prioritize AI research on foreign projects</span> <span class="page-ref">p. 6</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Strengthen export control enforcement</span> <span class="page-ref">p. 21</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Develop technology protection measures</span> <span class="page-ref">p. 21-22</span></div>
+                        </td>
+                    </tr>
+
+                    <!-- NSTC -->
+                    <tr>
+                        <td>
+                            <strong>NSTC (National Science and Technology Council)</strong>
+                            <div class="dept-info">FY 2025 Budget: XX</div>
+                            <div class="dept-info">FY 2025 Employee Count: XX</div>
+                        </td>
+                        <td>
+                            <div class="action-item lead-agency"><span class="action-text">Make recommendations on scientific data standards</span> <span class="page-ref">p. 8</span></div>
+                            <div class="action-item lead-agency"><span class="action-text">Explore whole-genome sequencing program</span> <span class="page-ref">p. 9</span></div>
+                        </td>
+                    </tr>
+
+                    <!-- Office of National Cyber Director -->
+                    <tr>
+                        <td>
+                            <strong>Office of National Cyber Director</strong>
+                            <div class="dept-info">FY 2025 Budget: XX</div>
+                            <div class="dept-info">FY 2025 Employee Count: XX</div>
+                        </td>
+                        <td>
+                            <div class="action-item support-agency"><span class="action-text">Collaborate on AI-ISAC</span> <span class="page-ref">p. 18</span></div>
+                            <div class="action-item support-agency"><span class="action-text">Support incident response efforts</span> <span class="page-ref">p. 19</span></div>
+                        </td>
+                    </tr>
+
+                    <!-- Other Agencies -->
+                    <tr>
+                        <td>
+                            <strong>Other Agencies</strong>
+                        </td>
+                        <td>
+                            <div class="action-item"><span class="action-text"><strong>OPM:</strong> Create talent-exchange program</span> <span class="page-ref">p. 11</span></div>
+                            <div class="action-item"><span class="action-text"><strong>DARPA:</strong> Launch AI interpretability program</span> <span class="page-ref">p. 9</span></div>
+                            <div class="action-item"><span class="action-text"><strong>NIH:</strong> Support whole-genome sequencing</span> <span class="page-ref">p. 9</span></div>
+                            <div class="action-item"><span class="action-text"><strong>USDA:</strong> Support whole-genome sequencing</span> <span class="page-ref">p. 9</span></div>
+                            <div class="action-item"><span class="action-text"><strong>Interior:</strong> Support whole-genome sequencing</span> <span class="page-ref">p. 9</span></div>
+                            <div class="action-item"><span class="action-text"><strong>All Agencies:</strong> Ensure employee access to frontier language models</span> <span class="page-ref">p. 11</span></div>
+                            <div class="action-item"><span class="action-text"><strong>All Agencies:</strong> Update cybersecurity playbooks for AI</span> <span class="page-ref">p. 19</span></div>
+                            <div class="action-item"><span class="action-text"><strong>Federal Research Funding Recipients:</strong> Use robust nucleic acid screening</span> <span class="page-ref">p. 23</span></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div style="margin-top: 30px; padding: 20px; background-color: #f8f9fa; border-radius: 5px;">
+            <h3>Summary Statistics</h3>
+            <p><strong>Total Policy Actions:</strong> ~180</p>
+            <p><strong>Most Active Departments:</strong></p>
+            <ul>
+                <li>Department of Commerce (DOC): ~15 actions (direct only)</li>
+                <li>NIST: ~11 actions</li>
+                <li>CAISI: ~13 actions</li>
+                <li>Department of Defense (DOD): ~17 actions</li>
+                <li>Department of Labor (DOL): ~9 actions</li>
+                <li>National Science Foundation (NSF): ~13 actions</li>
+                <li>Department of Energy (DOE): ~14 actions</li>
+            </ul>
+            <p><em>Note: Page references indicate where each policy action appears in the original AI Action Plan document. Budget and employee count data to be filled in with actual FY 2025 figures.</em></p>
+        </div>
+    </div>
+</body>
+</html>
